@@ -474,10 +474,10 @@ footer li {
 /* Media Mobile Phone */
 @media (max-width: 576px) {
   html {
-    font-size: 66%;
+    font-size: 60%;
   }
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 30px;
     margin: 3px;
   }
 
