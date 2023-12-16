@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/simplyCountdown.theme.default.css">
+    <script src="assets/js/simplyCountdown.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <title>Bernie & Anisya - Wedding</title>
+</head>
+
+<body>
+    <section id="hero"
+        class="hero w-100 h-100 p-3 text-center mx-auto d-flex justify-content-center align-items-center text-white">
+        <div>
+            <h4>Kepada Yth, <span>, </span></h4>
+            <h1>Bernie & Anisya</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam :</p>
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg btn-secondary" onclick="enableScroll()">Lihat Undangan</a>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top my-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bernie Anisya</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bernie Anisya</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto ">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#story">Story</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#rsvp">RSVP</a>
+                        <a class="nav-link" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 28 Juni 2025 di Bandung, Jawa Barat.</h3>
+                    <p>Oleh karena itu, dengan segala hormat kami bermaksud untuk mengundang Bapak/Ibu,Saudara/i</p>
+                </div>
+            </div>
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Bernie Aryandhi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab iure autem officiis vel
+                                corrupti?</p>
+                            <p>Putra dari Bpk. Ismadani <br> dan <br> Ibu Anna Susana</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="assets/img/bernie.jpeg" alt="Bernie Aryandhi"
+                                class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="assets/img/anisya.jpeg" alt="Anisya Putri" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Anisya Putriana</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab iure autem officiis vel
+                                corrupti?</p>
+                            <p>Putra dari Bpk. Dadang Saepuloh <br> dan <br> Ibu Ana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat : Gedung ITB Ganesha Cultural Center. <br> Jl. Tamansari No.73, Lb.
+                        Siliwangi, Kecamatan Coblong, Kota Bandung.</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0365647152835!2d107.6083431!3d-6.886223800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64557f442e3%3A0xc0e5915be0bedccb!2sITB%20Ganesha%20Cultural%20Center!5e0!3m2!1sen!2sid!4v1702682897709!5m2!1sen!2sid"
+                        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                    <a href="https://maps.app.goo.gl/sNXhvTyYPrp3tSiz9" target="_blank"
+                        class="btn btn-secondary btn-sm my-4">Lihat di Maps</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
+                        namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal atau
+                        salah tempat.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">
+                            Akad Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>08.00 - 10.00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Kamis, 28 Juni 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-white">
+                            Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dna kekhusyuan seluruh
+                            prosesi.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Resepsi
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>11.00 - Selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Kamis, 28 Juni 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-white">
+                            Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dna kekhusyuan seluruh
+                            prosesi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Bagaimana Cinta Kami Bersemi</span>
+                    <h2>Cerita Kami</h2>
+                    <p>Inilah Cerita dari mulai kami bertemu hingga saat ini.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background-image: url(assets/img/smkn5.png);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertama Bertemu</h3>
+                                    <span>1 Juni 2016</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Pertama bertemu di SMKN 5 Bandung, pada saat MPLS atau Masa Pengenalan Lingkungan
+                                        Sekolah</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(assets/img/pacaran.jpeg)"></div>
+                            <div class=" timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mulai Pacaran</h3>
+                                    <span>21 Desember 2022</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mulai Pacaran karena merasa ada kecocokan satu sama lain dan saling melengkapi
+                                        satu sama lain.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image" style="background-image: url(assets/img/serius.jpg);"></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3>Mulai Serius</h3>
+                                        <span>26 November 2024</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Mulai Serius ketika satu sama lain sudah siap untuk persiapkan diri
+                                            masing-masing untuk menghadapi hidup baru.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori Kisah Kami</span>
+                    <h2>Galeri Foto</h2>
+                    <p>Inilah Galeri Foto Kami.</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 1"
+                        href="assets/img/gallery/1.jpeg">
+                        <img src="assets/img/gallery/1.jpeg" alt="Bernie & Anisya 1" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 2"
+                        href="assets/img/gallery/2.jpeg">
+                        <img src="assets/img/gallery/2.jpeg" alt="Bernie & Anisya 2" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 3"
+                        href="assets/img/gallery/3.jpeg">
+                        <img src="assets/img/gallery/3.jpeg" alt="Bernie & Anisya 3" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 4"
+                        href="assets/img/gallery/4.jpeg">
+                        <img src="assets/img/gallery/4.jpeg" alt="Bernie & Anisya 4" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 5"
+                        href="assets/img/gallery/5.jpeg">
+                        <img src="assets/img/gallery/5.jpeg" alt="Bernie & Anisya 5" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 6"
+                        href="assets/img/gallery/6.jpeg">
+                        <img src="assets/img/gallery/6.jpeg" alt="Bernie & Anisya 6" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 7"
+                        href="assets/img/gallery/7.jpeg">
+                        <img src="assets/img/gallery/7.jpeg" alt="Bernie & Anisya 7" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 8"
+                        href="assets/img/gallery/8.jpeg">
+                        <img src="assets/img/gallery/8.jpeg" alt="Bernie & Anisya 8" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 9"
+                        href="assets/img/gallery/9.jpeg">
+                        <img src="assets/img/gallery/9.jpeg" alt="Bernie & Anisya 9" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 10"
+                        href="assets/img/gallery/10.jpeg">
+                        <img src="assets/img/gallery/10.jpeg" alt="Bernie & Anisya 10" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 11"
+                        href="assets/img/gallery/11.jpeg">
+                        <img src="assets/img/gallery/11.jpeg" alt="Bernie & Anisya 11" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a data-gallery="anisyabernie" data-toggle="lightbox" data-caption="Bernie & Anisya 12"
+                        href="assets/img/gallery/12.jpeg">
+                        <img src="assets/img/gallery/12.jpeg" alt="Bernie & Anisya 12" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp" id="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran :</p>
+                </div>
+            </div>
+            <form id="my-form" method="post"
+                action="https://script.google.com/macros/s/AKfycbx9Q6IBgFoQYennGgLuHpkrh_PC93NG3vK3zB24wEKVUMpB4BWMvIniX19N2L7ojSyO/exec"
+                class="row row-cols-md-auto g-3 align-items-center justify-content-center">
+                <div class="col-12">
+                    <div class="">
+                        <label for="name" class="form-label text-white">Nama</label>
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Masukkan Nama...">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="">
+                        <label for="jumlah" class="form-label text-white">Jumlah</label>
+                        <input type="number" class="form-control" name="jumlah" id="jumlah" min="1" max="3">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="">
+                        <label for="status" class="form-label text-white">status</label>
+                        <select class="form-select" name="status" id="status">
+                            <option selected>Pilih Salah Satu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center" style="margin-top: 50px;">
+                    <div class="">
+                        <button type="submit" class="btn btn-lg btn-primary">Kirim</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div id="disqus_thread"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gifts" id="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Ungkapan Tanda Kasih</span>
+                    <h2>Kirim Hadiah</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"><span class="d-block fw-bold">BSI</span>123456789 - Bernie Aryandhi
+                        </li>
+                        <li class="list-group-item"><span class="d-block fw-bold">BCA</span>123456789 - Anisya Putri
+                        </li>
+                        <li class="list-group-item">
+                            <span class="d-block fw-bold">SociaBuzz</span>
+                            <img src="assets/img/sociabuzz.png" alt="Donate" class="img-thumbnail" width="150px">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy; 2025 BernieAnisya Wedding. All Rights Reserved</small>
+                    <small class="block">Designed by. <a href="https://instagram.com/berniearyandhi"
+                            target="_blank">Bernie
+                            Aryandhi</a></small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="sound" autoplay loop>
+            <source src="assets/backsound/Y2meta.app - THE FINAL CHAPTER SOUND (128 kbps).mp3" type="audio/mp3">
+        </audio>
+
+        <div id="pause" class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-pause-circle"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://bernieanisya-wedding.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2025, // required
+            month: 6, // required
+            day: 28, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: {
+                    singular: 'Hari',
+                    plural: 'Hari'
+                },
+                hours: {
+                    singular: 'Jam',
+                    plural: 'Jam'
+                },
+                minutes: {
+                    singular: 'Menit',
+                    plural: 'Menit'
+                },
+                seconds: {
+                    singular: 'Detik',
+                    plural: 'Detik'
+                }
+            },
+        })
+    </script>
+    <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offCanvas = document.querySelector('.offcanvas');
+
+        offCanvas.addEventListener('show.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'visible';
+        });
+
+        offCanvas.addEventListener('hidden.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+    <script>
+        const rootElement = document.querySelector(':root');
+        const audioIcon = document.querySelector('#pause');
+        const song = document.querySelector('#sound')
+        const pauseIcon = document.querySelector('.audio-icon-wrapper i')
+        let isPlaying = false;
+
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(scrollTop, scrollLeft);
+            }
+
+            rootElement.style.scrollBehavior = 'auto'
+        }
+
+        function enableScroll() {
+            window.onscroll = function () {}
+            rootElement.style.scrollBehavior = 'smooth'
+            // localStorage.setItem('opened', 'true');
+            playAudio();
+        }
+
+        function playAudio() {
+
+            song.volume = 0.3;
+            audioIcon.style.display = 'flex';
+            song.play();
+            isPlaying = true;
+        }
+
+        audioIcon.onclick = function () {
+            if (isPlaying) {
+                song.pause();
+                pauseIcon.classList.remove('bi-pause-circle');
+                pauseIcon.classList.add('bi-play');
+            } else {
+                song.play();
+                pauseIcon.classList.add('bi-pause-circle');
+                pauseIcon.classList.remove('bi-play');
+            }
+
+            isPlaying = !isPlaying
+        }
+
+        // if (!localStorage.getItem('opened')) {
+        //     disableScroll();
+        // }
+        disableScroll();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                        method: 'POST',
+                        body: data,
+                    })
+                    .then(() => {
+                        Swal.fire({
+                            icon: "success",
+                            title: "Berhasil Mengisi Kehadiran !",
+                            showConfirmButton: true,
+                            timer: 2000
+                        });
+                    })
+            });
+        });
+    </script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('n') || ''
+        const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i'
+        const namaContainer = document.querySelector('.hero h4 span')
+        namaContainer.innerText = (`${pronoun} ${nama},`.replace(/ ,$/, ','))
+
+        document.querySelector('#nama').value = nama
+    </script>
+</body>
+
+</html>
